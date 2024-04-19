@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
 }
 
 .wrap{
@@ -16,11 +17,10 @@ ul, ol{
     list-style: none;
 }
 
-.wrap{
-    /* background-color: #242e42; */
-}
+
 .movieTitle{
     text-align: center;
+   
 }
 .menu{
   /* background-color: rgb(225, 140, 249); */
@@ -69,7 +69,9 @@ ul, ol{
     display : block;
     text-decoration : none;
     color : rgb(37, 37, 37);
-    font-size: 12px;
+    font-size: 15px;
+    font-family : 'Material Icons';
+
     padding : 12px 20px;
 }
   
@@ -94,6 +96,20 @@ ul, ol{
     margin-bottom: 20px;
 
 }
+
+.search-txt{
+    border-radius: 800px;
+    width: 800px;
+    text-align: center;
+
+
+}
+.main2 i{
+    border-radius: 800px;
+
+}
+
+
 .main2 {
     text-align: center;
     font-size: 12px;
@@ -102,30 +118,41 @@ ul, ol{
     /* border-bottom: 2px solid #222; */
     margin-bottom: 20px;
 }
-
+.genreTitle{
+    text-align: left;
+    padding-left: 100px;
+    margin-bottom: 80px;
+}
 .main3 {
     /* background-color: rgb(255, 0, 0);  */
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
     padding: 20px;
     /* border-bottom: 2px solid #222; */
     margin-bottom: 20px;
 }
-/*.main4{
-  /* background-color: blanchedalmond; 
+.yearTitle{
+    text-align: left;
+    padding-left: 100px;
+    margin-bottom: 80px;
+}
+.main4{
+    /* background-color: blanchedalmond;  */
   text-align: center;
+  margin-top: 80px;
+
 }
 .main4 li{
-  /* background-color:yellow; 
+  /* background-color:yellow;  */
   display: flex;
-  font-size: 15px;
+  font-size: 20px;
   justify-content: space-between;
   padding: 10px 0;
   border-bottom: 1px solid #ccc;
   
   margin-bottom: 20px;
-}*/
-.footer{
-  margin-top: 200px; ;
 }
+/* .footer{
+  margin-top: 200px; ; 
+} */
